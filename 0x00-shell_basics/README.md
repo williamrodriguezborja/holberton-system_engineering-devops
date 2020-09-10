@@ -1,1 +1,0 @@
-0. current directory shell script
