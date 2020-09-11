@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ap | sed -z 's/\n/,/g' | awk '{print $1"\n"}'
+ls -apm 
