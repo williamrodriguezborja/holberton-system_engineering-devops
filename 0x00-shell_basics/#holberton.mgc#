@@ -1,0 +1,3 @@
+11
+
+In Unix a file is just a sequence of bytes, however some files have more structure. The file command can look at the sequence of bytes and tell you things.for example if the first 4bytes are \177 E L F then it will tell you it is an elf file. It will then look at more bytes and tell you if it is a core file, an executable or an object filep
