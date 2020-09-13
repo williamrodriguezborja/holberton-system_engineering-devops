@@ -1,2 +1,2 @@
-#!/bin/bash
-chmod 000 hello
+#!/bin/bashi
+chmod 007 hello
