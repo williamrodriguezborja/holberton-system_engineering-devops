@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "$(find . -type f -empty -printf '%f\n')\n"
+find . -type f -empty -printf "%f\n\r"
