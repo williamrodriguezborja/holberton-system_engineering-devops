@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -empty -printf "%f\n\r"
+find . -type f -empty -printf "%f\n"
