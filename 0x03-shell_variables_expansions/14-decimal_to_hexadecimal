@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(([##16]$DECIMAL))
+echo -e "$(([##16]$DECIMAL))\n"
