@@ -4,7 +4,7 @@
 counter=1
 limit=20
 
-while [ $counter -le limit ]
+while [ $counter -le $limit ]
 do
     if [ $counter -eq 4 ]
     then
@@ -12,8 +12,11 @@ do
     elif [ $counter -eq 9 ]
     then
         echo 'bad luck from Japan'
-    elif [ $counter -eq 17]
+    elif [ $counter -eq 17 ]
+    then
         echo 'bad luck from Italy'
+    else
+        echo $counter
     fi
     ((counter++))
 done
