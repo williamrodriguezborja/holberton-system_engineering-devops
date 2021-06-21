@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
-
 # print in 4 bad luck in 8 good look otherwise holberton school.
 counter=1
-limit=20
 
-while [ $counter -le $limit ]
+while [ $counter -le 20 ]
 do
     if [ $counter -eq 4 ]
     then
