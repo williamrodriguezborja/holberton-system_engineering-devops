@@ -2,9 +2,14 @@
 # print clock
 hours=0
 
-while [ $hours -le 11 ]
+while [ $hours -le 12 ]
 do
     echo 'Hour: ' $hours
+
+    if [ $hours -eq 12 ]
+    then
+        break
+    fi
     minutes=1
     while [ $minutes -le 59 ]
     do
