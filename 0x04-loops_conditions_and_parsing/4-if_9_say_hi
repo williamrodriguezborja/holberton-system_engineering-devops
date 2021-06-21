@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This script is displaying "Holberton School" 10 times
 # and in the nine print 'Hi'
-counter=1
+counter=0
 
 while [ $counter -le 10 ]
 do
