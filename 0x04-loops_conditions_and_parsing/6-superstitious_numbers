@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+# print in 4 bad luck in 8 good look otherwise holberton school.
+counter=1
+limit=20
+
+while [ $counter -le limit ]
+do
+    if [ $counter -eq 4 ]
+    then
+        echo 'bad luck from China'
+    elif [ $counter -eq 9 ]
+    then
+        echo 'bad luck from Japan'
+    elif [ $counter -eq 17]
+        echo 'bad luck from Italy'
+    fi
+    ((counter++))
+done
+
