@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # print in 4 bad luck in 8 good look otherwise holberton school.
 
-counter=0
+counter=1
 
 while [ $counter -le 10 ]
 do
