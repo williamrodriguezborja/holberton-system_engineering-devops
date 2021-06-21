@@ -4,5 +4,5 @@ ls > /dev/null
 
 for i in *
 do
-    echo $i
+    echo "$i"
 done
