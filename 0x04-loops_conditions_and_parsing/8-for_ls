@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 #print ls and iterate
-ls > /dev/null
 
-for i in *
+for i in $(ls | cut -d '-' -f 2 )
 do
-    echo "$i"
+  echo $i
 done
