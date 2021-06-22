@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #fizz buzz in bash
 
-for i in {1..10}
+for i in {1..100}
 do
     if  ! ((i % 3)) && ! ((i % 5))
     then
