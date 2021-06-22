@@ -12,6 +12,13 @@ then
     else
         echo 'holbertonschool file is not empty'
     fi
+
+    is_regular=$(find . -name holbertonschool -type f )
+
+    if [ $is_regular ]
+    then
+        echo 'holbertonschool is a regular file'
+    fi
 else
     echo "holbertonschool file does not exist"
 fi
