@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# print if holbertonschool file exist
 result=$(find . -name holbertonschool)
 
 if [ $result ]
