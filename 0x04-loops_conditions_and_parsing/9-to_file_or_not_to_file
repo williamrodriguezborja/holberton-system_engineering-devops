@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+result=$(find . -name holbertonschool)
+
+if [ $result ]
+then
+    echo "holbertonschool file exists"
+    is_empty=$(find . -name holbertonschool -empty )
+    if [ $is_empty ]
+    then
+        echo 'holbertonschool file is empty'
+    else
+        echo 'holbertonschool file is not empty'
+    fi
+else
+    echo "holbertonschool file does not exist"
+fi
