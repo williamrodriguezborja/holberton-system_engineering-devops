@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Execute the file 4, before task and this file execute stopped of the before file.
+file_to_kill=$(pgrep ./4-to_infinity_and_beyond -f)
+kill "$file_to_kill"

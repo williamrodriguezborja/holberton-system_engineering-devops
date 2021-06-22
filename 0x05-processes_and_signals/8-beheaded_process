@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Bash script that displays To infinity and beyond indefinitely.
+#The signal SIGKILL
+file_to_kill=$(pgrep ./7-highlander -f)
+kill -SIGKILL "$file_to_kill"
