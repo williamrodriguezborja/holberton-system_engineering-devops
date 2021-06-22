@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #print ls and iterate
 
-for i in $( ls|cut -d '-' -f 2)
+for i in *
 do
-  echo "$i"
+  echo "$i" |cut -d '-' -f 2
 done
