@@ -2,11 +2,11 @@
 # print if holbertonschool file exist
 result=$(find . -name holbertonschool)
 
-if [ $result ]
+if [ "$result" ]
 then
     echo "holbertonschool file exists"
     is_empty=$(find . -name holbertonschool -empty )
-    if [ $is_empty ]
+    if [ "$is_empty" ]
     then
         echo 'holbertonschool file is empty'
     else
@@ -15,7 +15,7 @@ then
 
     is_regular=$(find . -name holbertonschool -type f )
 
-    if [ $is_regular ]
+    if [ "$is_regular" ]
     then
         echo 'holbertonschool is a regular file'
     fi
