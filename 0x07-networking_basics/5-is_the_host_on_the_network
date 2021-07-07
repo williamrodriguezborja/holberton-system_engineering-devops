@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Realize ping and guide user when input is fail
+# Bash script that perform ping and guide user when input is fail
 if [[ $# -eq 1 ]]; then
     ping -c 5 "${1}"
 else
