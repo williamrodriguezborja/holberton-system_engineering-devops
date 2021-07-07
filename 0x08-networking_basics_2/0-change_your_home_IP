@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Bash script change "localhost" to "facebook.com".
+sed -i '1s/^/127.0.0.2 localhost\n/'
+sed -i '1s/^/8.8.8.8 facebook.com\n/'
