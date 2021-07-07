@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Bash script that pings an IP address passed as an argument.
+# Realize ping and guide user when input is fail
 if [[ $# -eq 1 ]]; then
     ping -c 5 "${1}"
 else

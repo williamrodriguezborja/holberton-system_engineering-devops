@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+# Print sockets in use with program name
 netstat -lp
