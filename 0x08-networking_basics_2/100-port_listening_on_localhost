@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Bash script that use netcat command to listen in socket 98
+
+nc -l 98
